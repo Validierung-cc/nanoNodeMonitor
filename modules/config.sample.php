@@ -18,6 +18,7 @@
 // Theme of your Node Monitor
 // Nano Themes:   'dark' or 'light'
 // Banano Themes: 'banano'
+// Ananos Themes: 'ananos'
 // $themeChoice = 'light';
 
 // Choice of block explorer
