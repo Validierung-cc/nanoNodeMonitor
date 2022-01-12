@@ -12,7 +12,7 @@
 // set $currency, $themeChoice, and $blockExplorer to
 // corresponding Nano / Banano values.
 
-// Currency 'nano' or 'banano' or 'nano-beta'
+// Currency 'nano' or 'banano' or 'ananos' or 'nano-beta'
 // $currency = 'nano';
 
 // Theme of your Node Monitor

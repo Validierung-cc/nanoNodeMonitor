@@ -225,7 +225,7 @@ function isNewNodeVersionAvailable($currentVersion, $latestVersion, $currency)
   // for now, we can only check nano reliably
   if ($currency != "nano") {
     return false;
-  } 
+  }
 
   $currentVersion = $currentVersion;
 
@@ -384,7 +384,7 @@ function getNodeLocation($nodeLocationByUser, $nodeNinja) {
           $location = $locationDefault;
         }
     }
-   
+
     // run some final checks on location
     if (is_null($location) || empty($location)) {
       $location = $locationDefault;
@@ -395,15 +395,18 @@ function getNodeLocation($nodeLocationByUser, $nodeNinja) {
 
 
 // get currency name from currency
-function currencyName($currency) 
+function currencyName($currency)
 {
   switch ($currency) {
+    case 'ananos':
+      return "Ananos";
+
     case 'banano':
       return "Banano";
-    
+
     case 'nano-beta':
       return "Nano BETA";
-    
+
     default:
       return "Nano";
   }
@@ -412,15 +415,15 @@ function currencyName($currency)
 
 
 // get currency symbol from currency
-function currencySymbol($currency) 
+function currencySymbol($currency)
 {
   switch ($currency) {
-    case 'banano':
-      return "BANANO";
-    
+    case 'ananos':
+      return "ANANOS";
+
     case 'nano-beta':
       return "\u{3B2}NANO";
-    
+
     default:
       return "NANO";
   }
