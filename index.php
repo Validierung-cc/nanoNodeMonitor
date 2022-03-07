@@ -5,7 +5,7 @@ require_once __DIR__.'/modules/includes.php';
 include 'modules/header.php';
 
 $coinURL = 'https://nano.org';
-$suffix = '.svg'
+$suffix = '.svg';
 if ($currency == 'banano') {
     $coinURL = 'https://banano.co.in/';
 }

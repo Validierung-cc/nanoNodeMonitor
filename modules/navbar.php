@@ -1,10 +1,10 @@
 <?php
 
-$suffix = '.svg'
+$suffix = '.svg;'
 
 if ($currency == 'ananos') {
     $coinURL = 'https://ananos.tk';
-    $suffix = '.png'
+    $suffix = '.png';
 }
 ?>
 <div class="navbar navbar-expand-lg n-navbar-theme fixed-top">
