@@ -12,7 +12,7 @@ if ($currency == 'banano') {
 
 if ($currency == 'ananos') {
     $coinURL = 'https://ananos.tk';
-    $suffix = '.png'
+    $suffix = '.png';
 }
 
 ?>
