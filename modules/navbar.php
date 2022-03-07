@@ -1,6 +1,6 @@
 <?php
 
-$suffix = '.svg;'
+$suffix = '.svg';
 
 if ($currency == 'ananos') {
     $coinURL = 'https://ananos.tk';
